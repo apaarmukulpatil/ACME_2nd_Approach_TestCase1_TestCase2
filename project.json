@@ -1,0 +1,65 @@
+{
+  "name": "ACME_2nd Approach_TestCase1_TestCase2",
+  "description": "Test Automation Project With 2nd Approach of ACME Process.",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "[22.7.0-preview]",
+    "UiPath.Testing.Activities": "[22.7.0-preview]",
+    "UiPath.UIAutomation.Activities": "[22.7.0-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.7.0.0",
+  "projectVersion": "1.0.114442793",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "30e55fda-c01b-40fd-a663-08680e6a0212",
+        "testCaseType": "TestCase",
+        "executionTemplateType": 1,
+        "fileName": "TestCase2.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "925753e0-3041-422f-8750-3c202d512fee",
+        "dataVariationFilePath": ".variations\\ACME TestCase 2_Sheet1.json",
+        "testCaseType": "TestCase",
+        "executionTemplateType": 0,
+        "fileName": "TestCase1.xaml"
+      }
+    ],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
